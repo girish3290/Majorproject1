@@ -1,30 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
-
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
 
 * {
-  font-family: 'Open Sans', sans-serif;
-   box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-
-.current-weather img {
-  max-width: 120px;
-  margin-top: -15px;
-}
 body {
     background: url('https://images.unsplash.com/photo-1621274403997-37aace184f49?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1');
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     overflow: scroll;
-    height: 100vh;
+    
+    height: 100%;
     font-family: 'Poppins', sans-serif;
-}
-
-
-footer{
-    bottom: 0px;
 }
 
